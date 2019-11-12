@@ -1,0 +1,4 @@
+- [ ] create README.md
+- [ ] list keycodes that haven't been added
+- [ ] create a GUI
+- [ ] Add randomness for a more human feel
