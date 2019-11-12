@@ -109,6 +109,8 @@ fun performKeyboardAction(robot: Robot, message: String) {
             "," -> robot.pressAndRelease(KeyEvent.VK_COMMA)
             "." -> robot.pressAndRelease(KeyEvent.VK_PERIOD)
             ":" -> robot.shiftPressAndRelease(KeyEvent.VK_COLON)
+            "/" -> robot.pressAndRelease(KeyEvent.VK_SLASH)
+            "?" -> robot.shiftPressAndRelease(KeyEvent.VK_SLASH)
             "!" -> robot.shiftPressAndRelease(KeyEvent.VK_EXCLAMATION_MARK)
             "-" -> robot.shiftPressAndRelease(KeyEvent.VK_MINUS)
             "(" -> robot.shiftPressAndRelease(KeyEvent.VK_LEFT_PARENTHESIS)
