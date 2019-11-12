@@ -105,6 +105,18 @@ fun performKeyboardAction(robot: Robot, message: String) {
             "Y" -> robot.shiftPressAndRelease(KeyEvent.VK_Y)
             "Z" -> robot.shiftPressAndRelease(KeyEvent.VK_Z)
 
+            // Digits
+            "0" -> robot.pressAndRelease(KeyEvent.VK_0)
+            "1" -> robot.pressAndRelease(KeyEvent.VK_1)
+            "2" -> robot.pressAndRelease(KeyEvent.VK_2)
+            "3" -> robot.pressAndRelease(KeyEvent.VK_3)
+            "4" -> robot.pressAndRelease(KeyEvent.VK_4)
+            "5" -> robot.pressAndRelease(KeyEvent.VK_5)
+            "6" -> robot.pressAndRelease(KeyEvent.VK_6)
+            "7" -> robot.pressAndRelease(KeyEvent.VK_7)
+            "8" -> robot.pressAndRelease(KeyEvent.VK_8)
+            "9" -> robot.pressAndRelease(KeyEvent.VK_9)
+
             // Punctuation Marks
             "," -> robot.pressAndRelease(KeyEvent.VK_COMMA)
             "." -> robot.pressAndRelease(KeyEvent.VK_PERIOD)
