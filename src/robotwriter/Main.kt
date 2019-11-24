@@ -1,3 +1,5 @@
+package robotwriter
+
 import java.awt.AWTException
 import java.awt.Robot
 
@@ -16,17 +18,20 @@ import java.lang.InterruptedException
 
 @Throws(IOException::class, AWTException::class, InterruptedException::class)
 fun main(args: Array<String>) {
-    val robot = Robot()
-    Thread.sleep(3000)
+//    val robot = Robot()
+//    Thread.sleep(3000)
+//
+//    try {
+//        var n = Integer.parseInt(args[1].trim { it <= ' ' })
+//        while (n-- > 0) {
+//            robotwriter.performKeyboardAction(robot, args[0])
+//        }
+//    } catch (ex: ArrayIndexOutOfBoundsException) { // args[1] wasn't provieded
+//        robotwriter.performKeyboardAction(robot, args[0])
+//    }
 
-    try {
-        var n = Integer.parseInt(args[1].trim { it <= ' ' })
-        while (n-- > 0) {
-            performKeyboardAction(robot, args[0])
-        }
-    } catch (ex: ArrayIndexOutOfBoundsException) { // args[1] wasn't provieded
-        performKeyboardAction(robot, args[0])
-    }
+    val frame = Frame()
+    frame.isVisible = true
 }
 
 @Throws(IOException::class, AWTException::class, InterruptedException::class)
