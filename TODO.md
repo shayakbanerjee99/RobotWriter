@@ -1,0 +1,2 @@
+- [ ] Create a GUI
+- [ ] Give an option for a CLI mode in the command line
